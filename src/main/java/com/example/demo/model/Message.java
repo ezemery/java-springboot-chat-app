@@ -3,7 +3,7 @@ package com.example.demo.model;
 public class Message {
     private Integer messageid;
     private String username;
-    private String message;
+    private String messagetext;
 
 //    public Message(Integer messageid, String username, String message){
 //        this.messageid = messageid;
@@ -28,10 +28,10 @@ public class Message {
     }
 
     public String getMessage() {
-        return message;
+        return messagetext;
     }
 
     public void setMessage(String message) {
-        this.message = message;
+        this.messagetext = message;
     }
 }

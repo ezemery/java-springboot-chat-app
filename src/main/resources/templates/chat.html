@@ -23,10 +23,10 @@
         </option>
 
     </select>
-    <input type="submit">
+    <input id="submit-button" type="submit">
 </form>
 <div th:each="chatMessage: ${chatMessages}">
-    <span th:text="${chatMessage.username}">username</span>: <span th:text="${chatMessage.message}">Hello World</span>
+    <span class="messageList" th:text="${chatMessage.username}">username</span>: <span th:text="${chatMessage.message}">Hello World</span>
 </div>
 </body>
 </html>
